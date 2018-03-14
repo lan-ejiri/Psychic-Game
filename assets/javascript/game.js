@@ -38,6 +38,7 @@ console.log(computerChoice);
             console.log(computerChoice);
             document.getElementById("guesses").innerHTML = " "    ;
             document.getElementById("playagain").innerHTML = "Press any key to play again";
+            document.getElementById("guessleft").innerHTML = "10"    ;
 
         }
 
