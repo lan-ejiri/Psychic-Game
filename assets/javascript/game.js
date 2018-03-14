@@ -20,7 +20,7 @@ console.log(computerChoice);
             wins = wins + 1;
             document.getElementById("wins").textContent = wins;
             guessesleft = 10;
-            alert("u win");
+            alert("yay, you guessed right!");
             computerChoice = alphabet[Math.floor(Math.random() * alphabet.length)];
             console.log(computerChoice);
             document.getElementById("guesses").innerHTML = " ";
@@ -30,7 +30,7 @@ console.log(computerChoice);
 
         else if (guessesleft===0) {
             losses = losses + 1;
-            alert("u suq");
+            alert("sorry, you lost!");
             guessesleft=10;
             document.getElementById("losses").textContent = losses;
 
